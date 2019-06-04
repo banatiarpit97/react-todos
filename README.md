@@ -1,3 +1,16 @@
+List of correct credentials:
+
+email: a@b.in
+password: react
+
+email: c@d.in
+password: angular
+
+email: e@f.in
+password: vue
+
+///////////////////////////////////////////////////////////////////////////////////////
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
