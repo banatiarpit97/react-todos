@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.error {
+  color: red;
+}
+
+.main-wrapper {
+  height: 100vh;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}

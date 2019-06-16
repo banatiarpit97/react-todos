@@ -1,0 +1,70 @@
+.todo {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    margin-right: 25px;
+    box-shadow: 1px 3px 6px 1px #bfbfbf;
+    margin-bottom: 30px;
+    position: relative;
+    &.completed {
+        background-color: #5eb85c;
+        color: white;
+    }
+    &.big {
+        .heading, .detail {
+            white-space: unset;
+        }
+    }
+}
+
+.information {
+    padding: 0 15px;
+}
+
+.heading {
+    margin-top: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.detail {
+    margin-top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.edit, .done {
+    width: 50%;
+    margin: 0;
+    border: 0;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.edit {
+    background-color: #f0ad4e;
+}
+
+.done {
+    background-color: #5eb85c;
+}
+
+.delete {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+}

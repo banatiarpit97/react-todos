@@ -1,0 +1,19 @@
+.login {
+  width: fit-content;
+  margin: 10% auto;
+  // border: 1px solid black;
+  padding: 5%;
+  background-color: white;
+  box-shadow: 1px 1px 5px 0px #b7b7b7;
+  div:not(:last-child) {
+    margin-bottom: 25px;
+    display: flex;
+    label {
+      flex: 1;
+      margin-right: 10px;
+    } 
+    input {
+      flex: 2;
+    }
+  }
+}
