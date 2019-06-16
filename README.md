@@ -9,13 +9,7 @@ password: angular
 email: e@f.in
 password: vue
 
-
-
-
-
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
